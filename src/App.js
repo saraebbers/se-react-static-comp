@@ -4,7 +4,7 @@ import Banner from './Banner';
 import Stories from './Stories';
 import Footer from './Footer';
 import './App.css';
-import Author from './Author';
+// import Author from './Author';
 
 const stories = [
   {
@@ -16,26 +16,26 @@ const stories = [
     estTime: '2 min'
   },
   {
-    img: './story2.jpg',
+    img: '../public/story2.jpg',
     title: 'Hoodlums: a dissertation',
     desc: 'Examining villains in modern storytelling',
-    authImg: './alternate.png',
+    authImg: '../public/alternate.png',
     authName: 'Nathaniel',
     estTime: '10 min'
   },
   {
-    img: './story3.jpg',
+    img: '../public/story3.jpg',
     title: 'Halloween is a year-round sport',
     desc: 'Those who say otherwise just aren\'t trying hard enough.',
-    authImg: './leta.png',
+    authImg: '../public/leta.png',
     authName: 'Leta',
     estTime: '8 min'
   },
   {
-    img: './story4.jpg',
+    img: '../public/story4.jpg',
     title: 'How to Improve Learning and Classroom Engagement with Humor',
     desc: 'Okay, so first of all, everybody knows fart jokes are hilarious ...',
-    authImg: './pamela.png',
+    authImg: '../public/pamela.png',
     authName: 'Pamela',
     estTime: '11 min'
   }

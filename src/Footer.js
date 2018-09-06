@@ -4,8 +4,7 @@ import './Footer.css';
 const Footer = (props) => {
   return(
       <div>
-        <p>&copy;</p>
-        <p>{document.write(new Date().getFullYear())} </p>
+        <p className='Footer'>© 2018</p>
       </div>
     )
 }

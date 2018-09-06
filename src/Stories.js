@@ -20,7 +20,7 @@ const Stories = (props) => {
                 <div>
                   <h3> {story.title} </h3>
                   <p className='story-info'> {story.desc} </p>
-                  <img src={story.authImg} className='authImg' />
+                  <img src={story.authImg} className='author-image' />
                 </div>
               )
           })
