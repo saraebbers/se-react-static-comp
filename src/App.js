@@ -4,7 +4,6 @@ import Banner from './Banner';
 import Stories from './Stories';
 import Footer from './Footer';
 import './App.css';
-// import Author from './Author';
 
 const stories = [
   {

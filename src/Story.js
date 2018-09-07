@@ -1,18 +1,21 @@
 import React from 'react';
-import Button from './Button';
+// import Button from './Button';
 import './Story.css';
+import Author from './Author';
 
 const Story = (props) => {
+  console.log(props);
   return (
     <div className='Story'>
-      <img src={props.img} />
+      <img src={props.image} />
       <div className='story-info'>
-        <div>
-          <h3>{props.title}</h3>
-          <p>{props.desc}</p>
-        </div>
-        {/* create an Author component and add it here */}
-        {/* it will need properties of the author image, name, and the estimated reading time of the story */}
+        <h3 className='story-info' >{props.title}</h3>
+        <p className='story-info' >{props.desc}</p>
+        <Author 
+          authName={props.authName}
+          authImg={props.authImg}
+          estTime={props.estTime}
+          />
       </div>
     </div>
   )
